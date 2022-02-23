@@ -1,0 +1,100 @@
+body,html{
+    height: 100%;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(6, 19, 19), rgb(79, 201, 201));
+}
+
+
+#Header{
+    border: 4px solid aliceblue;
+    border-style: double;
+    margin-top: 10px;
+    padding: 4px;
+    display: flex;
+    background-color: black;
+    background-image: linear-gradient(rgb(2, 8, 8), rgb(36, 37, 37));
+    height: 40px;
+}
+
+.container{
+    margin:auto;
+    width: 452px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+}
+
+#btn {
+    height: 80%;
+    background-color:rgba(218, 0, 0, 0.904);
+    border-radius: 4px;
+    color: white;
+    margin-top:5px;
+    margin-left: 8px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-image: linear-gradient(rgb(233, 10, 10), rgb(109, 19, 16));
+}
+
+#btn:hover{
+    transform:scale(110%);
+}
+
+.logo{
+    width:100%;
+    font-size: 70px;
+    font-weight: bold;
+    color: #ffe604;
+    float: left;
+    position: relative;
+    text-shadow: 0 0 10px #420226, 0 0 7px #03031a;
+    margin-top: 40px;
+}
+
+.logo:hover{
+    color: rgb(247, 243, 243);
+    transform: scale(110%);
+}
+
+#scoreTitle{
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: aliceblue;
+    position: relative;
+    text-shadow: 0 0 10px #420226, 0 0 7px #03031a;
+}
+
+#scoreTitle:hover{
+    color: rgb(233, 143, 8);
+    transform: scale(110%);
+}
+
+#box{
+    margin-top: 150px;
+    align-self: center;
+    width: 415px;
+    height: 320px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgb(237, 243, 242), rgb(129, 31, 31));
+    border: 3px solid rgb(5, 5, 0);
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: rgb(5, 21, 51);
+}
+
+
+
