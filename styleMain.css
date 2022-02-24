@@ -30,22 +30,6 @@ body,html{
     padding: 10px;
 }
 
-.logo{
-    width:40%;
-    font-size: 60px;
-    font-weight: bold;
-    color: #ffe604;
-    position: relative;
-    text-shadow: 0 0 10px #420226, 0 0 7px #03031a;
-    margin-top: 100px;
-    margin-left: 150px;
-}
-
-.logo:hover{
-    color: rgb(247, 243, 243);
-    transform: scale(120%);
-}
-
 #btn {
     height: 80%;
     background-color:rgba(218, 0, 0, 0.904);
@@ -74,7 +58,7 @@ body,html{
 .image-list-small li {
     display: inline-block;
     width: 183px;
-    margin: 200px 20px 30px;
+    margin: 100px 20px 30px;
   }
 
 .image-list-small li > a {
@@ -103,18 +87,19 @@ body,html{
 }
 
 .image-list-small .details {
-    margin-top: 43px;
+    margin-top: 20px;
   }
 
-  .image-list-small .details h3 {
+.image-list-small .details h3 {
     display: block;
     font-size: 14px;
     margin: 0 0 3px 0;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
-  .image-list-small .details h3 a {
+}
+
+.image-list-small .details h3 a {
     color: #f6fa18;
     font-style: double;
     font-size: 37px;
@@ -124,10 +109,23 @@ body,html{
     text-decoration: none;
     transform: scale(1.1);
   }
+  
+.logo{
+    width:40%;
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffe604;
+    position: relative;
+    text-shadow: 0 0 10px #420226, 0 0 7px #03031a;
+    margin-top: 100px;
+    margin-left: 150px;
+}
 
-  .image-list-small .details h3 a:hover{
-    transform: scale(1.1)
-  }
+.logo:hover{
+    color: rgb(247, 243, 243);
+    transform: scale(120%);
+}
+
 
 
 
