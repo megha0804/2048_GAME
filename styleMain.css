@@ -30,6 +30,22 @@ body,html{
     padding: 10px;
 }
 
+.logo{
+    width:40%;
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffe604;
+    position: relative;
+    text-shadow: 0 0 10px #420226, 0 0 7px #03031a;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.logo:hover{
+    color: rgb(247, 243, 243);
+    transform: scale(120%);
+}
+
 #btn {
     height: 80%;
     background-color:rgba(218, 0, 0, 0.904);
