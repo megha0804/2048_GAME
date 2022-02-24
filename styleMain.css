@@ -99,10 +99,14 @@ body,html{
     text-overflow: ellipsis;
   }
   .image-list-small .details h3 a {
-    color: #070606;
-    text-decoration: underline;
-    font-size: xx-large;
+    color: #f6fa18;
+    font-style: double;
+    font-size: 37px;
     font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    text-shadow: 0 0 10px #420226, 0 0 7px #03031a;
+    text-decoration: none;
+    transform: scale(1.1);
   }
 
   .image-list-small .details h3 a:hover{
