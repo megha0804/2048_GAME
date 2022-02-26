@@ -6,14 +6,13 @@ body,html{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-image: linear-gradient(rgb(6, 19, 19), rgb(79, 201, 201));
+    background-image: linear-gradient(rgb(120, 156, 156), rgb(18, 20, 20));
 }
 
 
 #Header{
-    border: 4px solid aliceblue;
-    border-style: double;
-    margin-top: 10px;
+    border-bottom: 4px solid aliceblue;
+    border-bottom-style: double;
     padding: 4px;
     display: flex;
     background-image: linear-gradient(rgb(2, 8, 8), rgb(36, 37, 37));
@@ -86,7 +85,7 @@ body,html{
     padding-left: 10px;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(95, 109, 95);
+    background-color: rgb(65, 68, 65);
     border: 7px solid rgb(162, 187, 209);
     border-style: double;
 }
@@ -94,8 +93,8 @@ body,html{
 .grid div{
     width: 100px;
     height: 100px;
-    background-image: linear-gradient(rgb(245, 213, 127),rgb(252, 236, 16));
-    color: black;
+    background-image: linear-gradient(rgb(227, 95, 253),rgb(245, 244, 239));
+    color: rgb(18, 5, 68);
     text-align: center;
     font-weight: bold;
     position: relative;
