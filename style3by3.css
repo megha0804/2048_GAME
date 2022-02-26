@@ -11,9 +11,8 @@ body,html{
 
 
 #Header{
-    border: 4px solid aliceblue;
-    border-style: double;
-    margin-top: 10px;
+    border-bottom: 4px solid aliceblue;
+    border-bottom-style: double;
     padding: 4px;
     display: flex;
     background-image: linear-gradient(rgb(2, 8, 8), rgb(36, 37, 37));
@@ -54,6 +53,7 @@ body,html{
     position: relative;
     text-shadow: 0 0 10px #420226, 0 0 7px #03031a;
     margin-top: 40px;
+    margin-left: 66px;
 }
 
 .logo:hover{
